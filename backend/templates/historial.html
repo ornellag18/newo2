@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chat History</h1>
+        </header>
+        <main>
+            <table id="history-table">
+                <thead>
+                    <tr>
+                        <th>Session Identifier</th>
+                        <th>Query</th>
+                        <th>Response</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for record in history %}
+                        <tr>
+                            <td>{{ record.session_identifier }}</td>
+                            <td>{{ record.query }}</td>
+                            <td>{{ record.response | safe }}</td>
+                            <td>{{ record.timestamp }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <p>&copy; 2024 Newo Oil & Gas</p>
+        </footer>
+    </div>
+</body>
+</html>

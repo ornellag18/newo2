@@ -1,0 +1,44 @@
+[
+  {
+    "case_id": "1",
+    "problem_type": "tubing_leak",
+    "description": "Leak in the production tubing due to corrosion, resulting in reduced production efficiency.",
+    "causes": ["Corrosion", "Mechanical wear", "Manufacturing defect"],
+    "solutions": [
+      {"step": 1, "description": "Inspect the tubing for leaks using ultrasonic or pressure testing."},
+      {"step": 2, "description": "Replace the damaged section of tubing with a corrosion-resistant alloy."},
+      {"step": 3, "description": "Apply a protective coating to prevent future corrosion."}
+    ],
+    "tags": ["tubing", "corrosion", "leak"],
+    "references": [{"type": "PDF", "title": "Tubing Corrosion Prevention Guide", "url": "https://example.com/tubing_corrosion_guide.pdf"}],
+    "last_updated": "2024-12-01"
+  },
+  {
+    "case_id": "2",
+    "problem_type": "sand_production",
+    "description": "Excessive sand production causing damage to surface equipment and reduced well productivity.",
+    "causes": ["Weak formation", "High flow rates", "Pressure drop across perforations"],
+    "solutions": [
+      {"step": 1, "description": "Install a gravel pack to control sand ingress."},
+      {"step": 2, "description": "Reduce production flow rate to minimize formation stress."},
+      {"step": 3, "description": "Use a downhole sand screen to filter sand particles."}
+    ],
+    "tags": ["sand", "formation", "gravel_pack"],
+    "references": [{"type": "PDF", "title": "Sand Control Techniques", "url": "https://example.com/sand_control.pdf"}],
+    "last_updated": "2024-12-02"
+  },
+  {
+    "case_id": "3",
+    "problem_type": "casing_damage",
+    "description": "Cracks or deformation in casing due to geological stress or improper cementing.",
+    "causes": ["Geological stress", "Poor cementing", "Corrosion"],
+    "solutions": [
+      {"step": 1, "description": "Conduct a casing inspection log to assess damage extent."},
+      {"step": 2, "description": "Apply a casing patch or liner to repair localized damage."},
+      {"step": 3, "description": "Perform remedial cementing to restore casing integrity."}
+    ],
+    "tags": ["casing", "damage", "stress"],
+    "references": [{"type": "Video", "title": "Casing Repair Techniques", "url": "https://example.com/casing_repair_video"}],
+    "last_updated": "2024-12-03"
+  }
+]

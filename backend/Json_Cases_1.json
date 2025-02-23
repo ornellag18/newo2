@@ -1,0 +1,388 @@
+[
+    {
+        "case_id": "W-001",
+        "problem_type": "Artificial Lift Failure",
+        "description": "Pump failure due to sand intrusion, wear, or power loss.",
+        "causes": ["Sand intrusion", "Pump wear", "Power loss"],
+        "solutions": [
+            {
+                "method": "Repair or replace pump",
+                "description": "Fix or install a new pump to restore lift function.",
+                "effectiveness_score": 9,
+                "implementation_time": "6 hours"
+            },
+            {
+                "method": "Use sand control",
+                "description": "Implement sand control methods to prevent pump damage.",
+                "effectiveness_score": 8,
+                "implementation_time": "5 hours"
+            }
+        ],
+        "tags": ["artificial lift", "pump failure", "sand control"],
+        "vector_embedding": [0.123, -0.456, 0.789, -0.132, 0.341],
+        "source_documents": ["https://example.com/artificial-lift"],
+        "created_at": "2024-02-10T08:30:00Z",
+        "updated_at": "2024-02-11T10:00:00Z"
+    },
+    {
+        "case_id": "W-002",
+        "problem_type": "Wellbore Scale Buildup",
+        "description": "Mineral scale accumulation inside the wellbore is reducing production efficiency.",
+        "causes": ["High mineral content in formation water", "Temperature changes"],
+        "solutions": [
+            {
+                "method": "Acidizing Treatment",
+                "description": "Inject acid solution to dissolve scale deposits.",
+                "effectiveness_score": 9,
+                "implementation_time": "8 hours"
+            }
+        ],
+        "tags": ["scale buildup", "acidizing", "wellbore maintenance"],
+        "vector_embedding": [0.012, -0.045, 0.189, -0.223, 0.567],
+        "source_documents": ["https://example.com/scale-treatment"],
+        "created_at": "2024-02-09T14:15:00Z",
+        "updated_at": "2024-02-10T16:20:00Z"
+    },
+    {
+        "case_id": "W-003",
+        "problem_type": "Paraffin Deposition",
+        "description": "Paraffin accumulation in production tubing causes flow restrictions.",
+        "causes": ["Low temperature", "Wax precipitation"],
+        "solutions": [
+            {
+                "method": "Hot Oil Treatment",
+                "description": "Circulate hot oil to dissolve paraffin deposits.",
+                "effectiveness_score": 7,
+                "implementation_time": "4 hours"
+            }
+        ],
+        "tags": ["paraffin deposition", "hot oil", "flow restriction"],
+        "vector_embedding": [-0.345, 0.289, -0.187, 0.422, -0.567],
+        "source_documents": ["https://example.com/paraffin-deposition"],
+        "created_at": "2024-02-08T09:00:00Z",
+        "updated_at": "2024-02-09T11:30:00Z"
+    },
+    {
+        "case_id": "W-004",
+        "problem_type": "Wellhead Integrity Issues",
+        "description": "Leaks or failures in the wellhead components affecting safety and operation.",
+        "causes": ["Corrosion", "Seal degradation", "High pressure"],
+        "solutions": [
+            {
+                "method": "Replace wellhead seals",
+                "description": "Install new seals to prevent leaks.",
+                "effectiveness_score": 8,
+                "implementation_time": "6 hours"
+            }
+        ],
+        "tags": ["wellhead", "integrity", "seal replacement"],
+        "vector_embedding": [0.233, -0.126, 0.487, -0.312, 0.876],
+        "source_documents": ["https://example.com/wellhead-integrity"],
+        "created_at": "2024-02-07T12:45:00Z",
+        "updated_at": "2024-02-08T14:20:00Z"
+    },
+    {
+        "case_id": "W-005",
+        "problem_type": "Zonal Communication",
+        "description": "Unintended fluid movement between reservoir zones due to faulty cementing.",
+        "causes": ["Poor cementing", "Formation pressure imbalance"],
+        "solutions": [
+            {
+                "method": "Remedial Cementing",
+                "description": "Reapply cementing to isolate zones.",
+                "effectiveness_score": 9,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["zonal communication", "cementing", "formation integrity"],
+        "vector_embedding": [0.543, -0.322, 0.198, 0.788, -0.112],
+        "source_documents": ["https://example.com/zonal-communication"],
+        "created_at": "2024-02-06T07:30:00Z",
+        "updated_at": "2024-02-07T09:10:00Z"
+    },
+    {
+        "case_id": "W-006",
+        "problem_type": "Casing Damage",
+        "description": "Deformation or breakage in casing leading to structural issues.",
+        "causes": ["High pressure", "Corrosion", "Mechanical stress"],
+        "solutions": [
+            {
+                "method": "Casing Patch",
+                "description": "Use expandable casing patches to repair damage.",
+                "effectiveness_score": 8,
+                "implementation_time": "16 hours"
+            }
+        ],
+        "tags": ["casing damage", "repair", "well integrity"],
+        "vector_embedding": [-0.567, 0.222, -0.344, 0.678, 0.101],
+        "source_documents": ["https://example.com/casing-repair"],
+        "created_at": "2024-02-05T11:40:00Z",
+        "updated_at": "2024-02-06T13:25:00Z"
+    },
+    {
+        "case_id": "W-007",
+        "problem_type": "Tubing Leaks",
+        "description": "Leakage in production tubing reducing efficiency.",
+        "causes": ["Corrosion", "Tubing wear", "High pressure"],
+        "solutions": [
+            {
+                "method": "Tubing Replacement",
+                "description": "Replace damaged tubing sections to restore flow.",
+                "effectiveness_score": 9,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["tubing leak", "corrosion", "repair"],
+        "vector_embedding": [0.789, -0.123, 0.456, -0.333, 0.876],
+        "source_documents": ["https://example.com/tubing-leak"],
+        "created_at": "2024-02-04T06:20:00Z",
+        "updated_at": "2024-02-05T08:45:00Z"
+    },
+    {
+        "case_id": "W-008",
+        "problem_type": "Sand Production",
+        "description": "Excessive sand production causing erosion and equipment damage.",
+        "causes": ["Unconsolidated formation", "High production rates", "Insufficient sand control"],
+        "solutions": [
+            {
+                "method": "Gravel Packing",
+                "description": "Install gravel pack screens to control sand production.",
+                "effectiveness_score": 9,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["sand production", "gravel pack", "erosion"],
+        "vector_embedding": [0.111, -0.232, 0.355, -0.411, 0.567],
+        "source_documents": ["https://example.com/sand-control"],
+        "created_at": "2024-02-12T08:00:00Z",
+        "updated_at": "2024-02-13T10:20:00Z"
+    },
+    {
+        "case_id": "W-009",
+        "problem_type": "Gas Lock in ESP",
+        "description": "Gas accumulation in electric submersible pump leading to reduced efficiency.",
+        "causes": ["Gas breakout", "Improper pump selection", "Low liquid rates"],
+        "solutions": [
+            {
+                "method": "Gas Separator Installation",
+                "description": "Install a gas separator to prevent gas lock in ESP.",
+                "effectiveness_score": 8,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["gas lock", "ESP failure", "gas separator"],
+        "vector_embedding": [-0.111, 0.332, -0.455, 0.211, -0.567],
+        "source_documents": ["https://example.com/esp-gas-lock"],
+        "created_at": "2024-02-11T09:10:00Z",
+        "updated_at": "2024-02-12T11:30:00Z"
+    },
+    {
+        "case_id": "W-010",
+        "problem_type": "Rod Pump Failure",
+        "description": "Mechanical wear and failure of sucker rod pump components.",
+        "causes": ["Rod wear", "Corrosion", "Pump misalignment"],
+        "solutions": [
+            {
+                "method": "Rod Guide Installation",
+                "description": "Install rod guides to minimize wear and extend pump life.",
+                "effectiveness_score": 9,
+                "implementation_time": "8 hours"
+            }
+        ],
+        "tags": ["rod pump failure", "corrosion", "alignment"],
+        "vector_embedding": [0.211, -0.322, 0.455, -0.211, 0.667],
+        "source_documents": ["https://example.com/rod-pump"],
+        "created_at": "2024-02-10T10:30:00Z",
+        "updated_at": "2024-02-11T12:45:00Z"
+    },
+    {
+        "case_id": "W-011",
+        "problem_type": "Casing Leak",
+        "description": "Leaking casing causing fluid migration and pressure loss.",
+        "causes": ["Corrosion", "Mechanical damage", "Cement failure"],
+        "solutions": [
+            {
+                "method": "Casing Patch",
+                "description": "Apply a casing patch to seal the leak and restore integrity.",
+                "effectiveness_score": 8,
+                "implementation_time": "14 hours"
+            }
+        ],
+        "tags": ["casing leak", "mechanical failure", "cementing"],
+        "vector_embedding": [-0.432, 0.222, -0.344, 0.678, 0.201],
+        "source_documents": ["https://example.com/casing-leak"],
+        "created_at": "2024-02-09T14:40:00Z",
+        "updated_at": "2024-02-10T16:25:00Z"
+    },
+    {
+        "case_id": "W-012",
+        "problem_type": "Water Coning",
+        "description": "Excess water production due to cone breakthrough near perforations.",
+        "causes": ["High drawdown", "Perforation too close to water zone"],
+        "solutions": [
+            {
+                "method": "Lower Production Rate",
+                "description": "Reduce the production rate to minimize water influx.",
+                "effectiveness_score": 7,
+                "implementation_time": "6 hours"
+            }
+        ],
+        "tags": ["water coning", "drawdown control", "water influx"],
+        "vector_embedding": [0.567, -0.232, 0.311, -0.411, 0.789],
+        "source_documents": ["https://example.com/water-control"],
+        "created_at": "2024-02-08T16:20:00Z",
+        "updated_at": "2024-02-09T18:10:00Z"
+    },
+    {
+        "case_id": "W-013",
+        "problem_type": "Gas Breakthrough",
+        "description": "Uncontrolled gas entry into the production system.",
+        "causes": ["Faulty cementing", "Gas cap expansion"],
+        "solutions": [
+            {
+                "method": "Gas Shutoff",
+                "description": "Install a gas shutoff device to reduce gas influx.",
+                "effectiveness_score": 8,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["gas breakthrough", "cementing", "gas control"],
+        "vector_embedding": [-0.312, 0.456, -0.211, 0.578, -0.334],
+        "source_documents": ["https://example.com/gas-breakthrough"],
+        "created_at": "2024-02-07T12:30:00Z",
+        "updated_at": "2024-02-08T14:20:00Z"
+    },
+    {
+        "case_id": "W-014",
+        "problem_type": "ESP Motor Failure",
+        "description": "Failure of the electric submersible pump motor leading to shutdown.",
+        "causes": ["Overheating", "Voltage fluctuations", "Seal failure"],
+        "solutions": [
+            {
+                "method": "Motor Replacement",
+                "description": "Replace the failed ESP motor and optimize cooling.",
+                "effectiveness_score": 9,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["ESP failure", "motor replacement", "submersible pump"],
+        "vector_embedding": [0.611, -0.123, 0.398, -0.476, 0.888],
+        "source_documents": ["https://example.com/esp-motor-failure"],
+        "created_at": "2024-02-06T08:50:00Z",
+        "updated_at": "2024-02-07T10:15:00Z"
+    },
+    {
+        "case_id": "W-015",
+        "problem_type": "Collapsed Tubing",
+        "description": "Tubing collapse due to high external pressure or mechanical failure.",
+        "causes": ["High annular pressure", "Mechanical damage", "Corrosion"],
+        "solutions": [
+            {
+                "method": "Tubing Replacement",
+                "description": "Remove and replace collapsed tubing sections.",
+                "effectiveness_score": 9,
+                "implementation_time": "14 hours"
+            }
+        ],
+        "tags": ["collapsed tubing", "pressure damage", "corrosion"],
+        "vector_embedding": [0.132, -0.243, 0.456, -0.678, 0.543],
+        "source_documents": ["https://example.com/tubing-collapse"],
+        "created_at": "2024-02-14T08:00:00Z",
+        "updated_at": "2024-02-15T10:20:00Z"
+    },
+    {
+        "case_id": "W-016",
+        "problem_type": "Downhole Equipment Stuck",
+        "description": "Downhole tools or tubing stuck, preventing well intervention.",
+        "causes": ["Differential sticking", "Wellbore collapse", "Debris accumulation"],
+        "solutions": [
+            {
+                "method": "Fishing Operations",
+                "description": "Use fishing tools to retrieve stuck equipment.",
+                "effectiveness_score": 8,
+                "implementation_time": "18 hours"
+            }
+        ],
+        "tags": ["stuck pipe", "fishing operations", "wellbore stability"],
+        "vector_embedding": [-0.312, 0.456, -0.211, 0.578, -0.334],
+        "source_documents": ["https://example.com/stuck-equipment"],
+        "created_at": "2024-02-13T09:10:00Z",
+        "updated_at": "2024-02-14T11:30:00Z"
+    },
+    {
+        "case_id": "W-017",
+        "problem_type": "Well Control Issues",
+        "description": "Unexpected pressure changes leading to well control challenges.",
+        "causes": ["Gas influx", "Formation pressure imbalance", "Improper mud weight"],
+        "solutions": [
+            {
+                "method": "Kill Mud Circulation",
+                "description": "Circulate heavy mud to regain pressure control.",
+                "effectiveness_score": 9,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["well control", "pressure management", "kill mud"],
+        "vector_embedding": [0.432, -0.222, 0.334, -0.678, 0.101],
+        "source_documents": ["https://example.com/well-control"],
+        "created_at": "2024-02-12T10:30:00Z",
+        "updated_at": "2024-02-13T12:45:00Z"
+    },
+    {
+        "case_id": "W-018",
+        "problem_type": "Formation Damage",
+        "description": "Restricted reservoir permeability due to drilling and production activities.",
+        "causes": ["Drilling fluid invasion", "Fines migration", "Water blockage"],
+        "solutions": [
+            {
+                "method": "Matrix Stimulation",
+                "description": "Inject acid or surfactants to restore permeability.",
+                "effectiveness_score": 8,
+                "implementation_time": "8 hours"
+            }
+        ],
+        "tags": ["formation damage", "matrix stimulation", "permeability"],
+        "vector_embedding": [-0.567, 0.222, -0.344, 0.678, 0.101],
+        "source_documents": ["https://example.com/formation-damage"],
+        "created_at": "2024-02-11T14:40:00Z",
+        "updated_at": "2024-02-12T16:25:00Z"
+    },
+    {
+        "case_id": "W-019",
+        "problem_type": "Wellbore Bridging",
+        "description": "Obstructions in the wellbore preventing production or intervention.",
+        "causes": ["Shale instability", "Debris accumulation", "Collapsed casing"],
+        "solutions": [
+            {
+                "method": "Mechanical Cleaning",
+                "description": "Use wireline or coiled tubing tools to remove blockages.",
+                "effectiveness_score": 9,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["wellbore bridging", "debris removal", "wireline"],
+        "vector_embedding": [0.543, -0.322, 0.198, 0.788, -0.112],
+        "source_documents": ["https://example.com/wellbore-bridging"],
+        "created_at": "2024-02-10T16:20:00Z",
+        "updated_at": "2024-02-11T18:10:00Z"
+    },
+    {
+        "case_id": "W-020",
+        "problem_type": "Hydrate Formation",
+        "description": "Gas hydrates blocking flowlines and production tubing.",
+        "causes": ["Low temperature", "High pressure", "Water presence"],
+        "solutions": [
+            {
+                "method": "Methanol Injection",
+                "description": "Inject methanol to dissolve hydrates and prevent reformation.",
+                "effectiveness_score": 8,
+                "implementation_time": "6 hours"
+            }
+        ],
+        "tags": ["hydrate formation", "flowline blockage", "methanol injection"],
+        "vector_embedding": [0.611, -0.123, 0.398, -0.476, 0.888],
+        "source_documents": ["https://example.com/hydrate-formation"],
+        "created_at": "2024-02-09T12:50:00Z",
+        "updated_at": "2024-02-10T14:15:00Z"
+    }
+]

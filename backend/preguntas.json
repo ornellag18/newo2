@@ -1,0 +1,489 @@
+[
+    {
+        "case_id": "W-001",
+        "problem_type": "Artificial Lift Failure",
+        "description": "Pump failure due to sand intrusion, wear, or power loss.",
+        "causes": ["Sand intrusion", "Pump wear", "Power loss"],
+        "solutions": [
+            {
+                "method": "Repair or replace pump",
+                "description": "Fix or install a new pump to restore lift function.",
+                "effectiveness_score": 9,
+                "implementation_time": "6 hours"
+            },
+            {
+                "method": "Use sand control",
+                "description": "Implement sand control methods to prevent pump damage.",
+                "effectiveness_score": 8,
+                "implementation_time": "5 hours"
+            }
+        ],
+        "tags": ["artificial lift", "pump failure", "sand control"],
+        "vector_embedding": [0.123, -0.456, 0.789, -0.132, 0.341],
+        "source_documents": ["https://example.com/artificial-lift"],
+        "created_at": "2024-02-10T08:30:00Z",
+        "updated_at": "2024-02-11T10:00:00Z",
+        "questions": [
+            "What are the main causes of artificial lift failure?",
+            "How can you prevent sand intrusion in pumps?",
+            "What are the most effective ways to repair or replace a pump?"
+        ]
+    },
+    {
+        "case_id": "W-002",
+        "problem_type": "Wellbore Scale Buildup",
+        "description": "Mineral scale accumulation inside the wellbore is reducing production efficiency.",
+        "causes": ["High mineral content in formation water", "Temperature changes"],
+        "solutions": [
+            {
+                "method": "Acidizing Treatment",
+                "description": "Inject acid solution to dissolve scale deposits.",
+                "effectiveness_score": 9,
+                "implementation_time": "8 hours"
+            }
+        ],
+        "tags": ["scale buildup", "acidizing", "wellbore maintenance"],
+        "vector_embedding": [0.012, -0.045, 0.189, -0.223, 0.567],
+        "source_documents": ["https://example.com/scale-treatment"],
+        "created_at": "2024-02-09T14:15:00Z",
+        "updated_at": "2024-02-10T16:20:00Z",
+        "questions": [
+            "How does high mineral content affect scale buildup in wellbores?",
+            "What are the benefits of acidizing treatments for scale removal?",
+            "What are the common temperature-related causes of wellbore scale buildup?"
+        ]
+    },
+    {
+        "case_id": "W-003",
+        "problem_type": "Paraffin Deposition",
+        "description": "Paraffin accumulation in production tubing causes flow restrictions.",
+        "causes": ["Low temperature", "Wax precipitation"],
+        "solutions": [
+            {
+                "method": "Hot Oil Treatment",
+                "description": "Circulate hot oil to dissolve paraffin deposits.",
+                "effectiveness_score": 7,
+                "implementation_time": "4 hours"
+            }
+        ],
+        "tags": ["paraffin deposition", "hot oil", "flow restriction"],
+        "vector_embedding": [-0.345, 0.289, -0.187, 0.422, -0.567],
+        "source_documents": ["https://example.com/paraffin-deposition"],
+        "created_at": "2024-02-08T09:00:00Z",
+        "updated_at": "2024-02-09T11:30:00Z",
+        "questions": [
+            "How does low temperature contribute to paraffin deposition?",
+            "What are the key benefits of using hot oil treatments for paraffin removal?",
+            "How can flow restrictions due to paraffin affect production efficiency?"
+        ]
+    },
+    {
+        "case_id": "W-004",
+        "problem_type": "Wellhead Integrity Issues",
+        "description": "Leaks or failures in the wellhead components affecting safety and operation.",
+        "causes": ["Corrosion", "Seal degradation", "High pressure"],
+        "solutions": [
+            {
+                "method": "Replace wellhead seals",
+                "description": "Install new seals to prevent leaks.",
+                "effectiveness_score": 8,
+                "implementation_time": "6 hours"
+            }
+        ],
+        "tags": ["wellhead", "integrity", "seal replacement"],
+        "vector_embedding": [0.233, -0.126, 0.487, -0.312, 0.876],
+        "source_documents": ["https://example.com/wellhead-integrity"],
+        "created_at": "2024-02-07T12:45:00Z",
+        "updated_at": "2024-02-08T14:20:00Z",
+        "questions": [
+            "What are the main causes of wellhead integrity issues?",
+            "How can seal degradation affect wellhead performance?",
+            "What are the best practices for replacing wellhead seals?"
+        ]
+    },
+    {
+        "case_id": "W-005",
+        "problem_type": "Zonal Communication",
+        "description": "Unintended fluid movement between reservoir zones due to faulty cementing.",
+        "causes": ["Poor cementing", "Formation pressure imbalance"],
+        "solutions": [
+            {
+                "method": "Remedial Cementing",
+                "description": "Reapply cementing to isolate zones.",
+                "effectiveness_score": 9,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["zonal communication", "cementing", "formation integrity"],
+        "vector_embedding": [0.543, -0.322, 0.198, 0.788, -0.112],
+        "source_documents": ["https://example.com/zonal-communication"],
+        "created_at": "2024-02-06T07:30:00Z",
+        "updated_at": "2024-02-07T09:10:00Z",
+        "questions": [
+            "How does poor cementing lead to zonal communication issues?",
+            "What are the challenges in isolating reservoir zones?",
+            "How does formation pressure imbalance contribute to zonal communication problems?"
+        ]
+    },
+    {
+        "case_id": "W-006",
+        "problem_type": "Wellbore Collapse",
+        "description": "Collapse of the wellbore due to inadequate cementing or formation instability.",
+        "causes": ["Inadequate cementing", "Formation pressure", "Improper drilling practices"],
+        "solutions": [
+            {
+                "method": "Re-cementing",
+                "description": "Reapply cement to stabilize the wellbore.",
+                "effectiveness_score": 8,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["wellbore collapse", "cementing", "drilling"],
+        "vector_embedding": [0.312, -0.124, 0.558, -0.674, 0.489],
+        "source_documents": ["https://example.com/wellbore-collapse"],
+        "created_at": "2024-02-05T11:00:00Z",
+        "updated_at": "2024-02-06T13:30:00Z",
+        "questions": [
+            "What are the main causes of wellbore collapse?",
+            "How does formation pressure contribute to wellbore stability?",
+            "What are the steps in performing re-cementing?"
+        ]
+    },
+    {
+        "case_id": "W-007",
+        "problem_type": "Gas Migration",
+        "description": "Migration of gas into the wellbore, leading to blowouts or production inefficiency.",
+        "causes": ["Poor casing", "Improper cementing", "Formation damage"],
+        "solutions": [
+            {
+                "method": "Cementing and Pressure Control",
+                "description": "Apply proper cementing techniques and control pressure to prevent gas migration.",
+                "effectiveness_score": 8,
+                "implementation_time": "14 hours"
+            }
+        ],
+        "tags": ["gas migration", "blowout", "cementing", "pressure control"],
+        "vector_embedding": [0.451, -0.366, 0.279, 0.847, -0.192],
+        "source_documents": ["https://example.com/gas-migration"],
+        "created_at": "2024-02-04T10:00:00Z",
+        "updated_at": "2024-02-05T12:00:00Z",
+        "questions": [
+            "What are the causes of gas migration in wellbores?",
+            "How does poor casing affect gas migration?",
+            "What pressure control methods are effective in preventing blowouts?"
+        ]
+    },
+    {
+        "case_id": "W-008",
+        "problem_type": "Formation Damage",
+        "description": "Damage to the formation caused by drilling or completion activities, reducing well productivity.",
+        "causes": ["Drilling fluid contamination", "Overpressurization", "Improper completion practices"],
+        "solutions": [
+            {
+                "method": "Formation stimulation",
+                "description": "Use techniques like acidizing or fracturing to stimulate the formation and restore productivity.",
+                "effectiveness_score": 9,
+                "implementation_time": "16 hours"
+            }
+        ],
+        "tags": ["formation damage", "stimulation", "drilling", "acidizing"],
+        "vector_embedding": [0.298, -0.487, 0.634, -0.222, 0.501],
+        "source_documents": ["https://example.com/formation-damage"],
+        "created_at": "2024-02-03T12:30:00Z",
+        "updated_at": "2024-02-04T15:45:00Z",
+        "questions": [
+            "How does drilling fluid contamination cause formation damage?",
+            "What are the benefits of acidizing in formation stimulation?",
+            "What completion practices prevent formation damage?"
+        ]
+    },
+    {
+        "case_id": "W-009",
+        "problem_type": "Cement Bond Failure",
+        "description": "Failure of the cement bond between casing and formation, leading to poor isolation of zones.",
+        "causes": ["Poor cementing", "Casing movement", "Formation pressure"],
+        "solutions": [
+            {
+                "method": "Cement bond logging",
+                "description": "Use logging tools to assess and repair the cement bond.",
+                "effectiveness_score": 9,
+                "implementation_time": "8 hours"
+            }
+        ],
+        "tags": ["cement bond", "casing", "formation isolation"],
+        "vector_embedding": [0.456, -0.312, 0.239, 0.654, -0.431],
+        "source_documents": ["https://example.com/cement-bond-failure"],
+        "created_at": "2024-02-02T14:20:00Z",
+        "updated_at": "2024-02-03T17:00:00Z",
+        "questions": [
+            "What causes cement bond failure?",
+            "How can cement bond logging help in repairing bonds?",
+            "What impact does casing movement have on cement bonding?"
+        ]
+    },
+    {
+        "case_id": "W-010",
+        "problem_type": "Water Production",
+        "description": "Excessive water production from the well, reducing oil recovery and efficiency.",
+        "causes": ["Water influx", "Fracture propagation", "Improper completion design"],
+        "solutions": [
+            {
+                "method": "Water shutoff techniques",
+                "description": "Implement water shutoff procedures to reduce water production.",
+                "effectiveness_score": 8,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["water production", "shutoff", "oil recovery"],
+        "vector_embedding": [0.372, -0.233, 0.345, 0.489, -0.269],
+        "source_documents": ["https://example.com/water-production"],
+        "created_at": "2024-02-01T10:10:00Z",
+        "updated_at": "2024-02-02T12:50:00Z",
+        "questions": [
+            "How does water influx affect oil production?",
+            "What are the best methods for water shutoff?",
+            "How does improper completion design contribute to water production?"
+        ]
+    },
+    {
+        "case_id": "W-011",
+        "problem_type": "Inflow Control Device Malfunction",
+        "description": "Failure of inflow control devices leading to uneven flow rates across zones.",
+        "causes": ["Blockage", "Wear", "Improper installation"],
+        "solutions": [
+            {
+                "method": "Replace or clean inflow control devices",
+                "description": "Replace faulty devices or clean blockages to restore uniform flow.",
+                "effectiveness_score": 7,
+                "implementation_time": "6 hours"
+            }
+        ],
+        "tags": ["inflow control", "flow regulation", "malfunction"],
+        "vector_embedding": [-0.178, 0.456, 0.654, -0.319, 0.789],
+        "source_documents": ["https://example.com/inflow-control-malfunction"],
+        "created_at": "2024-01-31T12:00:00Z",
+        "updated_at": "2024-02-01T13:40:00Z",
+        "questions": [
+            "How do inflow control devices work?",
+            "What causes inflow control device malfunction?",
+            "What are the methods for fixing inflow control failures?"
+        ]
+    },
+    {
+        "case_id": "W-012",
+        "problem_type": "Hydraulic Fracturing Failure",
+        "description": "Failure of hydraulic fracturing to create effective fractures for production enhancement.",
+        "causes": ["Improper fracturing design", "Insufficient proppant", "Formation heterogeneity"],
+        "solutions": [
+            {
+                "method": "Redesign fracturing procedure",
+                "description": "Revise fracture design and proppant loading to optimize performance.",
+                "effectiveness_score": 9,
+                "implementation_time": "18 hours"
+            }
+        ],
+        "tags": ["hydraulic fracturing", "fracture design", "enhanced production"],
+        "vector_embedding": [0.342, -0.578, 0.632, 0.214, -0.477],
+        "source_documents": ["https://example.com/hydraulic-fracturing-failure"],
+        "created_at": "2024-01-30T11:30:00Z",
+        "updated_at": "2024-01-31T14:10:00Z",
+        "questions": [
+            "What factors contribute to hydraulic fracturing failure?",
+            "How can fracture design be optimized?",
+            "What is the role of proppant in hydraulic fracturing?"
+        ]
+    },
+    {
+        "case_id": "W-013",
+        "problem_type": "Blowout Preventer Failure",
+        "description": "Failure of the blowout preventer leading to the risk of a blowout.",
+        "causes": ["Valve malfunction", "Power failure", "Improper maintenance"],
+        "solutions": [
+            {
+                "method": "Maintenance and testing",
+                "description": "Perform regular maintenance and testing to ensure proper blowout preventer function.",
+                "effectiveness_score": 9,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["blowout preventer", "safety", "valve malfunction"],
+        "vector_embedding": [-0.412, 0.592, -0.237, 0.689, -0.198],
+        "source_documents": ["https://example.com/blowout-preventer-failure"],
+        "created_at": "2024-01-29T13:50:00Z",
+        "updated_at": "2024-01-30T16:30:00Z",
+        "questions": [
+            "How does a blowout preventer prevent blowouts?",
+            "What causes blowout preventer failure?",
+            "How can regular maintenance improve blowout preventer performance?"
+        ]
+    },
+    {
+        "case_id": "W-014",
+        "problem_type": "Overpressure",
+        "description": "High pressure within the well, risking well integrity and safety.",
+        "causes": ["Gas influx", "Excessive fluid injection", "Formation pressure changes"],
+        "solutions": [
+            {
+                "method": "Pressure management",
+                "description": "Implement pressure control measures to reduce overpressure risk.",
+                "effectiveness_score": 8,
+                "implementation_time": "8 hours"
+            }
+        ],
+        "tags": ["overpressure", "well integrity", "pressure control"],
+        "vector_embedding": [0.521, -0.451, 0.367, -0.723, 0.562],
+        "source_documents": ["https://example.com/overpressure"],
+        "created_at": "2024-01-28T14:30:00Z",
+        "updated_at": "2024-01-29T17:20:00Z",
+        "questions": [
+            "What causes overpressure in wells?",
+            "What methods are used to control well pressure?",
+            "How does gas influx contribute to overpressure?"
+        ]
+    },
+    {
+        "case_id": "W-015",
+        "problem_type": "Casing Corrosion",
+        "description": "Corrosion of the casing leading to leaks and integrity issues.",
+        "causes": ["Acidic environments", "Electrochemical corrosion", "Improper materials"],
+        "solutions": [
+            {
+                "method": "Corrosion-resistant materials",
+                "description": "Use materials resistant to corrosion to prevent further damage.",
+                "effectiveness_score": 9,
+                "implementation_time": "10 hours"
+            }
+        ],
+        "tags": ["casing corrosion", "integrity", "material selection"],
+        "vector_embedding": [0.682, -0.431, 0.297, 0.532, -0.141],
+        "source_documents": ["https://example.com/casing-corrosion"],
+        "created_at": "2024-01-27T11:20:00Z",
+        "updated_at": "2024-01-28T12:40:00Z",
+        "questions": [
+            "How does casing corrosion affect well integrity?",
+            "What materials are resistant to corrosion in casing?",
+            "What preventive measures can be taken to avoid casing corrosion?"
+        ]
+    },
+    {
+        "case_id": "W-016",
+        "problem_type": "Gas Leak",
+        "description": "Gas leak in the wellbore or surface equipment, posing safety risks.",
+        "causes": ["Faulty valves", "Pressure buildup", "Damaged seals"],
+        "solutions": [
+            {
+                "method": "Leak detection and repair",
+                "description": "Use gas detectors to identify leaks and repair the faulty equipment.",
+                "effectiveness_score": 9,
+                "implementation_time": "6 hours"
+            }
+        ],
+        "tags": ["gas leak", "safety", "leak detection"],
+        "vector_embedding": [0.582, -0.312, 0.441, 0.621, -0.472],
+        "source_documents": ["https://example.com/gas-leak"],
+        "created_at": "2024-01-26T13:40:00Z",
+        "updated_at": "2024-01-27T15:30:00Z",
+        "questions": [
+            "How are gas leaks detected?",
+            "What are the causes of gas leaks in wells?",
+            "How can gas leaks be prevented?"
+        ]
+    },
+    {
+        "case_id": "W-017",
+        "problem_type": "Mud Loss",
+        "description": "Loss of drilling fluid into the formation, resulting in well control issues.",
+        "causes": ["Fractured formation", "Excessive mud pressure", "Improper mud composition"],
+        "solutions": [
+            {
+                "method": "Lost circulation material",
+                "description": "Inject lost circulation material (LCM) to seal off porous zones.",
+                "effectiveness_score": 8,
+                "implementation_time": "5 hours"
+            }
+        ],
+        "tags": ["mud loss", "well control", "LCM"],
+        "vector_embedding": [0.324, -0.467, 0.352, 0.588, -0.239],
+        "source_documents": ["https://example.com/mud-loss"],
+        "created_at": "2024-01-25T16:30:00Z",
+        "updated_at": "2024-01-26T17:00:00Z",
+        "questions": [
+            "What are the causes of mud loss in drilling operations?",
+            "How does excessive mud pressure contribute to mud loss?",
+            "What is the role of lost circulation materials in preventing mud loss?"
+        ]
+    },
+    {
+        "case_id": "W-018",
+        "problem_type": "Gas-to-Oil Ratio (GOR) Increase",
+        "description": "Increase in gas-to-oil ratio leading to decreased oil production efficiency.",
+        "causes": ["Gas influx", "Reservoir depletion", "Improper well completion"],
+        "solutions": [
+            {
+                "method": "Gas separation",
+                "description": "Use separators to separate gas from oil and improve production efficiency.",
+                "effectiveness_score": 8,
+                "implementation_time": "12 hours"
+            }
+        ],
+        "tags": ["GOR increase", "gas influx", "production efficiency"],
+        "vector_embedding": [0.512, -0.328, 0.287, 0.429, -0.109],
+        "source_documents": ["https://example.com/gor-increase"],
+        "created_at": "2024-01-24T15:00:00Z",
+        "updated_at": "2024-01-25T16:10:00Z",
+        "questions": [
+            "What causes an increase in gas-to-oil ratio?",
+            "How does reservoir depletion affect GOR?",
+            "What methods can be used to separate gas from oil?"
+        ]
+    },
+    {
+        "case_id": "W-019",
+        "problem_type": "Well Control Event",
+        "description": "Uncontrolled flow of fluids or gas during drilling operations.",
+        "causes": ["Kick", "Blowout", "Improper well control procedures"],
+        "solutions": [
+            {
+                "method": "Well control procedures",
+                "description": "Implement proper well control procedures to handle kicks and prevent blowouts.",
+                "effectiveness_score": 10,
+                "implementation_time": "Immediate"
+            }
+        ],
+        "tags": ["well control", "kick", "blowout prevention"],
+        "vector_embedding": [-0.324, 0.478, -0.587, 0.392, 0.613],
+        "source_documents": ["https://example.com/well-control-event"],
+        "created_at": "2024-01-23T14:00:00Z",
+        "updated_at": "2024-01-24T16:30:00Z",
+        "questions": [
+            "What are the causes of well control events?",
+            "How do kicks lead to well control issues?",
+            "What are the key steps in preventing blowouts during drilling?"
+        ]
+    },
+    {
+        "case_id": "W-020",
+        "problem_type": "Wellbore Pressure Build-up",
+        "description": "Pressure build-up in the wellbore causing potential formation damage and safety risks.",
+        "causes": ["Insufficient pressure management", "Hydraulic fracturing", "Reservoir pressure imbalance"],
+        "solutions": [
+            {
+                "method": "Pressure monitoring and control",
+                "description": "Monitor and manage pressure using pressure control equipment to avoid dangerous build-ups.",
+                "effectiveness_score": 9,
+                "implementation_time": "Ongoing"
+            }
+        ],
+        "tags": ["pressure build-up", "formation damage", "pressure control"],
+        "vector_embedding": [0.478, -0.356, 0.312, 0.544, -0.213],
+        "source_documents": ["https://example.com/wellbore-pressure-build-up"],
+        "created_at": "2024-01-22T13:20:00Z",
+        "updated_at": "2024-01-23T15:40:00Z",
+        "questions": [
+            "What causes pressure build-up in the wellbore?",
+            "How does hydraulic fracturing contribute to pressure build-up?",
+            "What methods are used for pressure control in wells?"
+        ]
+    }
+]
+

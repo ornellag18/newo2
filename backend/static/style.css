@@ -1,0 +1,202 @@
+/* Estilos generales */
+body { 
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.sidebar {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background-color: #f0f2f5;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
+}
+
+/* Estilos del contenedor de chat */
+#chat-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Estilos para los mensajes */
+.message-wrapper {
+    margin-bottom: 15px;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+}
+
+.message.query {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px 20px 0 20px;
+    align-self: flex-end;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.message.response {
+    background-color: #e5e5ea;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px 20px 20px 0;
+    align-self: flex-start;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+
+.message .response ul, .message .response ol {
+    padding-left: 20px;
+}
+
+.message .response li {
+    margin-bottom: 5px;
+}
+
+.message .response h1, .message .response h2, .message .response h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.message .response p {
+    margin: 0 0 10px;
+}
+
+/* Estilos para las áreas de input */
+.input-area {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-area input:focus {
+    border-color: #0084ff;
+}
+
+.input-area button {
+    padding: 15px 20px;
+    border: none;
+    background-color: #0084ff;
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative; /* Asegura que el spinner esté posicionado dentro del botón */
+    overflow: hidden; /* Asegura que el spinner no se desborde del botón */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Ajusta el tamaño del texto */
+}
+
+.input-area button:hover {
+    background-color: #005bb5;
+}
+
+#loading-spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+button.loading {
+    color: transparent;
+}
+
+/* Botón para nueva sesión */
+.historial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#new-session-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #0084ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 14px;
+}
+
+#new-session-button:hover {
+    background-color: #005bb5;
+}
+
+/* Animación del spinner */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

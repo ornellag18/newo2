@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newo Oil & Gas Document Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="historial-header">
+                <h2>Historial</h2>
+                <button id="new-session-button">Nueva Sesión</button>
+            </div>
+            <ul id="history-list">
+                <!-- Historial de consultas -->
+            </ul>
+        </div>        
+        <div class="main-content">
+            <img src="{{ url_for('static', filename='newo_logo.png') }}" alt="Newo Logo" class="logo">
+            
+            <div id="chat-container" class="chat-container">
+                <!-- Mensajes se añadirán dinámicamente aquí -->
+            </div>
+            
+            <div id="chat_history" class="chat-history">
+                <!-- Aquí se llenará el historial de conversaciones -->
+            </div>
+
+            <div class="input-area">
+                <select id="assistance-type">
+                    <option value="default">Default Assistant</option>
+                    <option value="industrial_maintenance">Industrial Maintenance</option>
+                    <option value="technical_support">Technical Support</option>
+                </select>
+                <select id="model-type">
+                    <option value="openai">OpenAI</option>
+                    <option value="deepseek">DeepSeek</option>
+                </select>
+                <input type="text" id="query-input" placeholder="Enter your query">
+                <button id="submit-button">
+                    Enviar
+                    <div id="loading-spinner"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
