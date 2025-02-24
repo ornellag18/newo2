@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d13f3a38-4a56-493a-872a-17526b3e9688/resourceGroups/Newo/providers/Microsoft.Web/sites/newo",
+    "appService.deploySubpath": "."
+}
