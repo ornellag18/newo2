@@ -4,6 +4,7 @@ from chatbot import handle_query
 from vector_search import get_chat_history, show_history
 from mongo_connection import get_mongo_collections
 import os
+ 
 app = Flask(__name__)
 CORS(app)
 
