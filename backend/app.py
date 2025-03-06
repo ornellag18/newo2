@@ -29,7 +29,3 @@ def historial():
 #if __name__ == '__main__':
  #   port = int(os.environ.get("WEBSITES_PORT", 5001))  # Usa 8000 en Azure, 5001 localmente
   #  app.run(host="0.0.0.0", port=port, debug=True)
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))  # Usa el puerto de Azure, o 8000 por defecto
-    app.run(host="0.0.0.0", port=port)
