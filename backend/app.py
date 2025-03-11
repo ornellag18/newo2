@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from chatbot import handle_query
+from .chatbot import handle_query
 from vector_search import get_chat_history, show_history
 from mongo_connection import get_mongo_collections
 import os
