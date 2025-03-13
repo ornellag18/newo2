@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from .chatbot import handle_query
-from vector_search import get_chat_history, show_history
-from mongo_connection import get_mongo_collections
+from .vector_search import get_chat_history, show_history
+from .mongo_connection import get_mongo_collections
 import os
  
 app = Flask(__name__)
@@ -26,6 +26,3 @@ def chat_history(session_id):
 def historial():
     return show_history()
 
-#if __name__ == '__main__':
- #   port = int(os.environ.get("WEBSITES_PORT", 5001))  # Usa 8000 en Azure, 5001 localmente
-  #  app.run(host="0.0.0.0", port=port, debug=True)
