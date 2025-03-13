@@ -2,7 +2,7 @@ from flask import jsonify, request
 from openai import OpenAI 
 from langchain.schema import HumanMessage
 from langchain.memory import ConversationBufferMemory
-from response_formatting import text_to_html_list, serialize_memory
+from .response_formatting import text_to_html_list, serialize_memory
 from vector_search import perform_mongo_search
 from mongo_connection import get_mongo_collections
 from datetime import datetime
