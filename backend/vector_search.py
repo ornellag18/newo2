@@ -1,5 +1,5 @@
 from langchain_mongodb import MongoDBAtlasVectorSearch
-from mongo_connection import get_mongo_collections
+from .mongo_connection import get_mongo_collections
 from environment import embeddings
 from flask import jsonify
 from bson.objectid import ObjectId
